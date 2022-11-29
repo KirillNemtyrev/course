@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.course.controller.MainController">
+   <children>
+      <Pane prefHeight="35.0" prefWidth="800.0" style="-fx-background-color: #2c2828;">
+         <children>
+            <ImageView fx:id="exitImg" fitHeight="35.0" fitWidth="43.0" layoutX="765.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/exit.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="collapseImg" fitHeight="35.0" fitWidth="43.0" layoutX="730.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/collapse.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icon.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </ImageView>
+            <Label layoutX="41.0" layoutY="6.0" text="Мессенджер" textFill="WHITE">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ScrollPane hbarPolicy="NEVER" layoutY="35.0" prefHeight="565.0" prefWidth="300.0" style="-fx-background-color: transparent;" stylesheets="@../styles/scroll.css">
+        <content>
+          <AnchorPane fx:id="chatsAnchor" minHeight="0.0" minWidth="0.0" prefHeight="563.0" prefWidth="290.0" />
+        </content>
+      </ScrollPane>
+      <ImageView fitHeight="96.0" fitWidth="96.0" layoutX="504.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/chat.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="451.0" layoutY="277.0" text="Выберите пользователя">
+         <font>
+            <Font name="Franklin Gothic Medium" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="422.0" layoutY="300.0" text="Которому хотите написать." textFill="#6b6b6b">
+         <font>
+            <Font name="Franklin Gothic Medium" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="351.0" layoutY="544.0" text="Курсовая работа по МиСООП от Немтырева Кирилла 1391 г.">
+         <font>
+            <Font name="Franklin Gothic Medium" size="15.0" />
+         </font>
+      </Label>
+      <Pane fx:id="dialogPane" layoutX="300.0" layoutY="35.0" prefHeight="565.0" prefWidth="503.0" style="-fx-background-color: white;" visible="false">
+         <children>
+            <ScrollPane fx:id="dialogScroll" hbarPolicy="NEVER" prefHeight="499.0" prefWidth="503.0" style="-fx-background-color: transparent;" stylesheets="@../styles/scroll.css">
+               <content>
+                  <AnchorPane fx:id="dialogAnchor" minHeight="0.0" minWidth="0.0" prefHeight="496.0" prefWidth="489.0" />
+               </content>
+            </ScrollPane>
+            <Pane layoutX="12.0" layoutY="516.0" prefHeight="35.0" prefWidth="465.0" style="-fx-background-color: #2c2828; -fx-background-radius: 25px;">
+               <children>
+                  <TextField fx:id="textField" focusTraversable="false" layoutX="6.0" layoutY="4.0" prefHeight="25.0" prefWidth="412.0" promptText="Начните набирать сообщение" style="-fx-background-color: #252121; -fx-background-radius: 25px; -fx-text-fill: white;">
+                     <font>
+                        <Font name="Franklin Gothic Medium" size="15.0" />
+                     </font>
+                  </TextField>
+                  <ImageView fx:id="sendImg" fitHeight="28.0" fitWidth="35.0" layoutX="423.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/send.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</Pane>

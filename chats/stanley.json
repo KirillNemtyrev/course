@@ -1,0 +1,7 @@
+{
+  "username": "Стэнли",
+  "pathToPhoto": "photos\\stanley.png",
+  "messages": [
+    {"bot":true,"message":"Чего хотел?","date":"Nov 29, 2022, 5:37:35 PM"}
+  ]
+}

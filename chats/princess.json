@@ -1,0 +1,7 @@
+{
+  "username": "Принцесса Пупырка",
+  "pathToPhoto": "photos\\princess.png",
+  "messages": [
+    {"bot":true,"message":"Пыр-Пыр, привет!","date":"Nov 29, 2022, 5:37:35 PM"}
+  ]
+}
