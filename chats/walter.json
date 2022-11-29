@@ -1,7 +1,1 @@
-{
-  "username": "Уолтер Уайт",
-  "pathToPhoto": "photos\\walter.png",
-  "messages": [
-    {"bot":true,"message":"Как оно?","date":"Nov 29, 2022, 5:37:35 PM"}
-  ]
-}
+{"username":"Уолтер Уайт","pathToPhoto":"photos\\walter.png","messages":[{"bot":true,"message":"Как оно?","date":"Nov 28, 2022, 5:37:35 PM"},{"bot":false,"message":"нормально","date":"Nov 29, 2022, 6:34:00 PM"},{"bot":true,"message":"О ответил..","date":"Nov 29, 2022, 6:34:00 PM"}]}
