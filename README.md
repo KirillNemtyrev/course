@@ -13,7 +13,7 @@
 При написании любому контакту 'Привет!' он ответит 'Ну здравствуй!'
 Если же будет написано что-то другое на что у бота нет ответа, он ответит 'Я тебя не понимаю.'
 
-Скрины:
+# Скрины:
 
 ![Image alt](https://github.com/KirillNemtyrev/course/raw/master/screens/1.png)
 ![Image alt](https://github.com/KirillNemtyrev/course/raw/master/screens/2.png)
