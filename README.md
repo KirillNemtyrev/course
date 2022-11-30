@@ -14,6 +14,7 @@
 Если же будет написано что-то другое на что у бота нет ответа, он ответит 'Я тебя не понимаю.'
 
 Скрины:
+
 ![Image alt](https://github.com/KirillNemtyrev/course/raw/master/screens/1.png)
 ![Image alt](https://github.com/KirillNemtyrev/course/raw/master/screens/2.png)
 ![Image alt](https://github.com/KirillNemtyrev/course/raw/master/screens/3.png)
